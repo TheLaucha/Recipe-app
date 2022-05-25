@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Recipe-app/static/css/main.7b50308c.css",
-    "main.js": "/Recipe-app/static/js/main.d3e07c41.js",
+    "main.js": "/Recipe-app/static/js/main.ea70635e.js",
     "static/js/787.13aee4be.chunk.js": "/Recipe-app/static/js/787.13aee4be.chunk.js",
     "static/media/roboto-all-500-normal.woff": "/Recipe-app/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/Recipe-app/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
@@ -37,11 +37,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/Recipe-app/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/Recipe-app/index.html",
     "main.7b50308c.css.map": "/Recipe-app/static/css/main.7b50308c.css.map",
-    "main.d3e07c41.js.map": "/Recipe-app/static/js/main.d3e07c41.js.map",
+    "main.ea70635e.js.map": "/Recipe-app/static/js/main.ea70635e.js.map",
     "787.13aee4be.chunk.js.map": "/Recipe-app/static/js/787.13aee4be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b50308c.css",
-    "static/js/main.d3e07c41.js"
+    "static/js/main.ea70635e.js"
   ]
 }
