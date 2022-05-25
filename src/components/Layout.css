@@ -1,0 +1,10 @@
+.Layout .AppBar ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Layout .AppBar li {
+  background-color: lightgray;
+}
