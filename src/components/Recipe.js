@@ -48,7 +48,7 @@ const Recipe = ({ recipe, id, addToFavorites, favorites }) => {
     <Grid item xs={12} md={6} lg={4}>
       <Box sx={sx}>
         <Box sx={{ width: "100%", position: "relative" }}>
-          <Link to={`/recipe/${id}`} state={recipe}>
+          <Link to={`/Recipe-app/recipe/${id}`} state={recipe}>
             <Typography
               variant='h6'
               component='h2'
@@ -93,12 +93,11 @@ const Recipe = ({ recipe, id, addToFavorites, favorites }) => {
           </Typography>
         </Box>
         <img src={image} alt={label} style={{ borderRadius: "1rem" }}></img>
-        <Link to={`/recipe/${id}`} state={recipe}>
+        <Link to={`/Recipe-app/recipe/${id}`} state={recipe}>
           <Button variant='contained' color='secondary' fullWidth>
             Receta Completa
           </Button>
         </Link>
-        {/* A LOS INGREDIENTES AGREGAR UN UNIQUEID */}
       </Box>
     </Grid>
   )

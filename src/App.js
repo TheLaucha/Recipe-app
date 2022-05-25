@@ -33,7 +33,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className='App'>
         <Routes>
-          <Route path='/' element={<Layout />}>
+          <Route path='/Recipe-app' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='favorites' element={<Favorites />} />
             <Route path='recipe/:recipeName' element={<FullRecipe />} />

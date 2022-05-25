@@ -1,5 +1,5 @@
 import React from "react"
-import { Routes, Route, Link, Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import "./Layout.css"
 import AppBar from "@mui/material/AppBar"
 import Box from "@mui/material/Box"
@@ -9,9 +9,7 @@ import Typography from "@mui/material/Typography"
 import Menu from "@mui/material/Menu"
 import MenuIcon from "@mui/icons-material/Menu"
 import Container from "@mui/material/Container"
-import Avatar from "@mui/material/Avatar"
 import Button from "@mui/material/Button"
-import Tooltip from "@mui/material/Tooltip"
 import MenuItem from "@mui/material/MenuItem"
 import MenuBookIcon from "@mui/icons-material/MenuBook"
 
@@ -34,7 +32,7 @@ const Layout = () => {
         <Container maxWidth='lg'>
           <Toolbar disableGutters>
             <MenuBookIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
-            <Link to='/'>
+            <Link to='/Recipe-app'>
               <Typography
                 variant='h6'
                 noWrap
@@ -82,7 +80,7 @@ const Layout = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Link to={page === "Home" ? "/" : page} key={page}>
+                    <Link to={page === "Home" ? "/Recipe-app" : page} key={page}>
                       <Typography variant='string' align='center' sx={{ color: "#000" }}>
                         {page}
                       </Typography>
@@ -93,7 +91,7 @@ const Layout = () => {
             </Box>
 
             <MenuBookIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
-            <Link to='/'>
+            <Link to='/Recipe-app'>
               <Typography
                 variant='h6'
                 noWrap
@@ -112,7 +110,11 @@ const Layout = () => {
             </Link>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
-                <Link to={page === "Home" ? "/" : page} style={{ marginRight: "1rem" }} key={page}>
+                <Link
+                  to={page === "Home" ? "/Recipe-app" : page}
+                  style={{ marginRight: "1rem" }}
+                  key={page}
+                >
                   <Button
                     onClick={handleCloseNavMenu}
                     fullWidth
